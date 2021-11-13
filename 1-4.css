@@ -64,3 +64,6 @@ footer::after {
 body {
     line-height: 1;
 }
+    nav a {
+        text-decoration: none;
+}
