@@ -1,0 +1,51 @@
+html {background-color: hsl(100,10%,70%)}
+body {background-color: beige; color: black; font-family: sans-serif; font-size: 1.5em;letter-spacing: 0.1em}
+header{color: ; font-family: sans-serif; font-size: 2.5em;letter-spacing: 0.1em}
+h1{color: orange; font-family: sans-serif; font-size: 1.5em;letter-spacing: 0.1em;text-align: center}
+nav > ul {color: blanchedalmond; font-family: Geneva, sans-serif; font-size: 1.5em;letter-spacing: 0.1em;line-height: 1.5em; list-style-type: square;padding-left: 4px}
+section{color: lightcoral; font-family: Verdana, sans-serif; font-size: 1.5em;letter-spacing: 0.1em}
+footer {font-family: sans-serif; font-size: 1.5em;letter-spacing: 0.1em; text-align: center}
+address, article, aside, blockquote, body, cite, div, d1, dt, em, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, html, img, li, main, nav, ol, p, section, span, ul {
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    max-width: 1800px;
+    min-width: 640px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body > header > img {
+    display: block;
+    width: 100%;
+}
+body > header > nav.horizontalNavigation li {
+    width: 24%;
+}
+nav.horizontalNavigation li {
+    display: block;
+    float: left;
+}
+nav.horizontalNavigation a {
+    display: block;
+    text-align: center;
+
+}
+footer {
+    clear: left;
+}
+footer::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+body {
+    line-height: 1;
+}
+nav ul {
+    list-style: none;
+    list-style-image: none;
+}
+nav a {
+    text-decoration: none;
