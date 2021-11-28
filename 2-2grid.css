@@ -1,0 +1,31 @@
+body {
+    display: grid;
+grid-template-columns: 2fr 1fr;
+grid-template-rows: 2fr 1fr;
+    grid-column-gap: 10px;
+}
+body > header {
+    grid-row: 1;
+    grid-column: 1/-1;
+}
+
+/* Grid Styles for Nested Grid */
+section {
+    grid-row: 3;
+    grid-column 3/-1;
+    display: grid;
+    grid-gap: 10px 30px;
+    grid-template-columns: repeat(2, 2fr);
+}
+section  {
+    grid-area: 2/1/2/6;
+}
+footer {
+    grid-row: 4/-1
+}
+body > * {
+    outline: 2px dashed red;
+}
+section > * {
+    outline: 2px dashed blue
+}
